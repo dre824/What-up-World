@@ -1,0 +1,59 @@
+//Welcome user
+// Check if the user is ready to play!
+confirm ("Ready to play?");
+var age = (21);
+var age = prompt("What's your age?");
+if (age < 13) {
+    // Check age of user and produce proper output
+console.log ("Play if you wish... But we take no responsibility for what is about to happen!");
+}
+else  {
+console.log ("Prepare for battle, Lunch Meat!");
+
+document.write ("<p>Big:" + txt.big() + "</p>");
+document.write ("<p>Fontcolor:" + txt.fontcolor ("light blue") +"</p>");	
+	
+console.log ("You are at a Justin Bieber concert, and you hear the song 'Knuck If You Buck' begin to play.");
+console.log ("The crowd erupts with excitement.");
+console.log ("Without warning 12 year old girls are going crazy!");
+console.log ("Bieber notices the chaos from above. Bodies flying around. People taking elbows to the face.");
+console.log ("Witnessing the pandemonium, he gets an idea.");
+console.log ("Suddenly, Bieber stops and says, 'Who wants to fight me?'");
+var userAnswer = prompt("Do you want to fight Bieber on stage?");
+if (userAnswer === "yes") {
+	// Varify if user wants to engage
+    console.log ("You and Bieber square off. He circles around you then lunges forward.");
+	console.log ("Beibs takes a wild swing but misses.");
+	console.log ("You counter with a 2 hand shove that sends him toppling over the drumset.");
+	console.log ("Angrily he bounces up. But not Beibs is not the only one angry.");
+	console.log ("You notices a few of the 12 yr olds have climbed onto the stage focused on you with a zombie like trance.");
+	console.log ("You grab a mic stand and knock a few to the ground as you run for the exit.");
+	console.log ("You quickly disappear from view as Beiber laughs and sings, 'Well it's too late to say sorry now!'");
+	
+	
+}
+else {
+    console.log ("Not up for the challenge, huh? Bieber shakes his head and sings 'Well if you think that I can't knuckle up, then baby you should go and love yourself!'");
+	console.log ("You open your mouth to respond, but realize this is not the time.");
+	console.log ("The rambunctious crowd has now turned its attention to you!");
+	console.log ("You need to escape but the exits are sealed!");
+	console.log ("Suddenly, you see a fan wearing an 'Eazy E' t-shirt motioning for you to follow them.");
+	console.log ("The two of you crawl behind a racoon macsot and in to an air duct.");
+	console.log ("You slide and slide and land outside in a dumpster. You're a little dirty, but that is much better than being mobbed by those vicious 12 yr olds!");
+	
+}
+    
+var feedback = prompt ("Please rate this game from 1-10");
+if (feedback > 8) {
+	// Note user response 
+    console.log ("Thank you for you participation! See you at the next concert!");
+}
+else {
+	document.write ("<p>Fontcolor:" + txt.fontcolor ("red") +"</p>");
+    console.log ("Sorry you did not enjoy your experience. I'll keep practicing coding.");
+}	
+// Ask for positive feedback
+// Review player input and impliment changes if possible
+var age = prompt("What ideas do you have that could've improved your playing experience?");
+document.write ("<p>Fontcolor:" + txt.fontcolor ("green") +"</p>");
+console.log ("Thank you for your suggestion.");
