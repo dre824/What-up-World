@@ -1,4 +1,4 @@
-# What-up-World
+# Get-Ready-World
 This is my introduction to repositories!
 
-This is DRE. And I am Hip Hop. My favorite sport is skateborading. I am determined to figure this out.
+This is DRE. I am Hip Hop. I went from skateboarding to rapping to coding. The triple threat.
